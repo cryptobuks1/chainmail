@@ -1,0 +1,21 @@
+{
+  "name": "chainmail",
+  "version": "0.3.1",
+  "description": "Block chain based encrypted messaging",
+  "bin": "chainmail.js",
+  "nacl": "./node.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "buffer": "^5.2.1",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "node-json-rpc2": "^1.1.0"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*"
+    ]
+  },
+  "author": "Cedar Creek Technologies, LLC",
+  "license": "GPLv3"
+}

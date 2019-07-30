@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title>Chainmail</title>
+	<meta charset="UTF-8">
+	<meta name='description' content=''>
+	<meta name='keywords' content=''>
+	<meta name='author' content=''>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="/w3.css">
+	<link href="/all.css" rel="stylesheet">
+	<link href="/quill.css" rel="stylesheet">
+	<script src="/quill.js"></script>
+</head>
+<body class='w3-gray'>
+	<div id='mainContainer' class='w3-auto w3-margin-top w3-margin-bottom' style='width:90vw;max-width:800px;min-width:350px;height:calc(99vh - 32px); background-image:url("logo1.png");background-size:contain;background-repeat:no-repeat;background-position:center bottom;background-color:white;'>
+		<div class='w3-yellow w3-block w3-container w3-border-bottom w3-border-black'>
+			<img src='logo2.png' style='max-height:75px;width:300px;'>
+			<div class='w3-right' style='font-size:75%;text-align:right;' id='node'></div>
+		</div>
+		<div style='height:calc(98vh - 71px);' class=''>
+			<div id='messageList' class='w3-pale-blue w3-border w3-border-black visible' style='float:left;width:340px;height:100%;'>
+				<div id='newBtn' class='w3-button w3-padding w3-red' style='cursor:pointer;width:100%;' onclick='NewMail()'><i class="fas fa-edit"></i> New Mail</div>
+				<div id='inBoxHdr' class='w3-center w3-border-bottom'>In Box
+					<div class='w3-right' id='reload' style='font-size:75%;'><button onclick='Reload()'><i class="fas fa-sync"></i></button></div>
+<!-- Administrative ONLY 
+					<div class='w3-right' id='isadmin' style='font-size:75%;'><button onclick='Admin()'>Admin</button></div>
+     Administrative ONLY -->
+				</div>
+				<div id='inBox' style='width:100%;height:calc(100% - 78px);overflow-y:auto;'>
+				</div>
+			</div>
+			<div id='messageData' class='w3-container w3-pale-green w3-border w3-border-black w3-display-container hidden' style='float:right;width:0px;height:100%;'>
+				<div id='rBtn' class='w3-display-topright w3-padding' style='display:none;' onclick='CloseMessageText()'><i class="fas fa-arrow-right"></i></div>
+				<div id='data'></div>
+			</div>
+		</div>
+	</div>
+<!-- The Modal -->
+	<div id="modalBox" class="w3-modal">
+	  <div class="w3-modal-content">
+		<div class="w3-container w3-yellow w3-border">
+<!--		  <span onclick="document.getElementById('modalBox').style.display='none'"
+		  class="w3-button w3-display-topright">&times;</span> -->
+		  <h2 class='w3-center'>Chainmail</h2>
+		  <p>User Access Code: <input type='password' id='userpass' value=''></p>
+		  <div class='w3-center w3-container'>
+			<button id='doLogIn' onclick='LogIn()'>Log In</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+</body>
+	<script src='/index.min.js'></script>
+</html>
