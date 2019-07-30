@@ -143,9 +143,9 @@ function Initialize(code)
 {
 	return new Promise((Resolve,Reject)=>
 	{
-		if( fs.existsSync(__dirname+'/keys/local.json'))
+		if( fs.existsSync('./keys/local.json'))
 		{
-			fs.readFile(__dirname+'/keys/local.json',(err,encoded)=>
+			fs.readFile('./keys/local.json',(err,encoded)=>
 			{
 				
 				try

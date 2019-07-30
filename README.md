@@ -165,7 +165,7 @@ It is recommended to use a whitelist ONLY from within an intranet with a firewal
 
 
 ## Illegal Activities
-Cedar Creek Technologies, LLC reserves the right to disable any Chainmail address, Chainmail alias, or block chain node shown to be conducting illegal, fraudulant, dangerious or terroristic activities. Report suspected activities to Chainmail address___TBD___ or see [https://cchristmann.com/chainmail](https://cchristmann.com/chainmail). Law enforcement, please provide legal documentation or Court Orders as necessary.
+Cedar Creek Technologies, LLC reserves the right to disable any Chainmail address, Chainmail alias, or block chain node shown to be conducting illegal, fraudulant, dangerious or terroristic activities. Report suspected activities to Chainmail address RS9X-PJ4G-B744 or see [https://cchristmann.com/chainmail](https://cchristmann.com/chainmail). Law enforcement, please provide legal documentation or Court Orders as necessary.
 
 Please note, it is not possible to disable or shut-down the entire Chainmail system. Selected nodes addresses can be disabled so that the that node address no longer has access the network; other nodes will reject connections. Only the message recipient has the cryptographic keys necessary to decrypt any specific message addressed to them.
 
@@ -184,7 +184,7 @@ This allows  USB stick to be completely independent from the computer configurat
 ## Authors
 
 * **Charles Christmann** - Cedar Creek Technologies, LLC, Placitas, NM, USA
-Chainmail address: ____TBD______
+Chainmail address: RS9X-PJ4G-B744
 Website: https://cchristmann.com/chainmail
 Regular email: cedarcreektech@cchristmann.com
 
