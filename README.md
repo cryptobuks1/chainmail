@@ -1,6 +1,6 @@
 # Chainmail - Block chain-based encrypted messaging
 
-Chainmail is an email-like program that uses a blockchain to store messages. Each message is encrypted using the JS-NACL Public-key authenticated encryption (crypto_box). This allows for anyone to use end-to-end message encryption while allowing their mesages to be distributed on the block chain. This distribution of messages will make it much more difficult for any entity to block the use of strong end-to-end message encryption. The program is designed to be portable and will run on any Windows and many Linux versions, and likely on MacOS, from a USB stick.
+Chainmail is an email-like program that uses a blockchain to store messages. Each message is encrypted using the JS-NACL Public-key authenticated encryption (crypto_box). This allows for anyone to use end-to-end message encryption while allowing their mesages to be distributed on the block chain. This distribution of messages will make it much more difficult for any entity to block the use of strong end-to-end message encryption. The program is designed to be portable and will run on Windows 7, 8 & 10 and many recent Linux versions, and likely on MacOS, from a USB stick.
 
 ## Changes
 
