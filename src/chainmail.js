@@ -260,7 +260,7 @@ async function CreateMe(code)
 			"nonce":nonce};
 
 		let ej = JSON.stringify(j);
-		let path = __dirname+'/keys/local.json';
+		let path ='./keys/local.json';
 		fs.writeFile(path,ej,()=>{});
 		CFG.ready = true;
 	}
