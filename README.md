@@ -1,11 +1,12 @@
 # Chainmail - Block chain-based encrypted messaging
 
-Chainmail is an email-like program that uses a blockchain to store messages. Each message is encrypted using the JS-NACL Public-key authenticated encryption (crypto_box). This allows for anyone to use end-to-end message encryption while allowing their mesages to be distributed on the block chain. This distribution of messages will make it much more difficult for any entity to block the use of strong end-to-end message encryption. The program is designed to be portable and will run on any Windows OS from a USB stick. Aliases are available as a substitute to your randomly assigned Chainmail address (see below).
+Chainmail is an email-like program that uses a blockchain to store messages. Each message is encrypted using the JS-NACL Public-key authenticated encryption (crypto_box). This allows for anyone to use end-to-end message encryption while allowing their mesages to be distributed on the block chain. This distribution of messages will make it much more difficult for any entity to block the use of strong end-to-end message encryption. The program is designed to be portable and will run on any Windows and many Linux versions, and likely on MacOS, from a USB stick.
 
 ## Changes
 
 **For windows and Linux**
 Chainmail Version 0.3.2 `(Beta 1)` - First set of bug fixes
+*First public release for testing ini the wild*
 - MultiChain v2.0.1 block chain (Community Edition, protocol 20009)
 - Node.js v10
 - JS-NACL v1.3.2
@@ -61,6 +62,11 @@ Copy the following files and directory from the bin/linux directory to a directo
   - chainmail
   - Open https://localhost:8088 in a web browser (see below)
 Any of the seed nodes can be used in place of the xmann.ddns.net node.  Feel free to change the seed node in the sh file.
+
+#### MacOC
+
+MacOS operation depends upon the availibility of Multichain for the operating system. Multichain can be compiled for MacOS using instructions from on the [Multichain website](https://multichain.com).
+The pkg node compiler application will build MacOS versions of node; however, none have been tested.
 
 ### TCP Ports Used
 
